@@ -103,9 +103,9 @@ Configuration
    * - Signal Trigger Device
      - Description
    * - ON 
-     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
+     - When it is open, the associated device is triggered as ON. If It is closed, the associated device is triggered as OFF.
    * - OFF 
-     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0xFF is sent.
+     - When it is open, the associated device is triggered as OFF. If it is closed, the associated device is triggered as ON.
 
 
 .. list-table::  
