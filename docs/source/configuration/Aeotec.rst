@@ -8,16 +8,16 @@ Please note that the following devices should be waken up before doing configura
 
 .. _aeotec_config_door_window_sensor:
 
-Door and Window Sensor  
---------------------------
+Door and Window Sensor (GEN 2) 
+--------------------------------
 
 .. image:: ../_static/images/aeotec_door_window_sensor.jpg 
    :align: center
 
-Wake-up device 
-~~~~~~~~~~~~~~~~~~
+Wake-up 
+~~~~~~~~~~
 
-The Aeotec Door and Window Sensor can be made to stay awake for 10 minutes by firmly tapping the security switch 3 times in quick succession. Once the Aeotec Door and Window Sensor has been woken, the LED will blink every few seconds indicating that it is now awake.
+The Aeotec Door and Window Sensor can be made to stay awake for 10 minutes by firmly tapping the security switch 3 times in quick succession. Once the Aeotec Door and Window Sensor has been waken, the LED will blink every few seconds indicating that it is now awake.
 
 
 
@@ -34,9 +34,9 @@ Configuration
    * - Signal Trigger Device
      - Description
    * - ON 
-     - When it is open, the Basic Set of 0XFF is sent. If It is closed, the Basic Set of 0x00 is sent.
+     - When it is open, the associated devices are triggered as ON. If It is closed, the associated devices are triggered as OFF.
    * - OFF 
-     - When it is open, the Basic Set of 0x00 is sent. If it is closed, the Basic Set of 0xFF is sent.
+     - When it is open, the associated devices are triggered as OFF. If It is closed, the associated devices are triggered as ON.
 
 
 .. list-table::  
@@ -46,9 +46,9 @@ Configuration
     * - Signal Trigger Controller
       - Description 
     * - 0x00
-      - When it is open, the Binary Report of 0XFF is sent. If It is closed, the Binary Report of 0x00 is sent.
+      - When it is open, the controller is triggered as ON. If It is closed, the controller is triggered as OFF.
     * - 0xFF
-      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0xFF is sent.
+      - When it is open, the controller is triggered as OFF. If it is closed, the controller is triggered as ON.
 
 
 .. list-table::  
@@ -73,8 +73,8 @@ Recessed Door Sensor (Gen 5)
 .. image:: ../_static/images/aeotec_recessed_door_window_sensor.jpg 
    :align: center
 
-Wake-up device 
-~~~~~~~~~~~~~~~
+Wake-up 
+~~~~~~~~~
 
 The Aeotec Recessed Door Sensor can be made to stay awake for 10 seconds by pressing the z-wave button for 6 seconds.
 
@@ -115,9 +115,9 @@ Configuration
     * - Signal Trigger Controller
       - Description 
     * - 0x00
-      - When it is open, the Binary Report of 0XFF is sent. If It is closed, the Binary Report of 0x00 is sent.
+      - When it is open, the controller is triggered as ON. If It is closed, the controller is triggered as OFF.
     * - 0xFF
-      - When it is open, the Binary Report of 0x00 is sent. If it is closed, the Binary Report of 0xFF is sent.
+      - When it is open, the controller is triggered as OFF. If it is closed, the controller is triggered as ON.
 
 
 .. list-table::  

@@ -28,9 +28,9 @@ Association group two is intended for any device that is controllable with a Bas
    * - Signal Trigger Device
      - Value
    * - ON  
-     - Basic Set of 0X00 is sent when it is restored 
+     - The associated devices are triggered as OFF when it is closed.
    * - OFF 
-     - Basic Set of 0X00 is NOT sent when it is restored  
+     - The associated devices are NOT triggered as OFF when when it is closed.  
 
 
 .. _ecolink_config_tilt_sensor:
@@ -58,9 +58,9 @@ Association group two is intended for any device that is controllable with a Bas
    * - Signal Trigger Device
      - Description
    * - ON  
-     - Basic Set of 0X00 is sent when it is restored 
+     - The associated devices are triggered as OFF when it is restored.
    * - OFF 
-     - Basic Set of 0X00 is NOT sent when it is restored  
+     - The associated devices are NOT triggered as OFF when when it is restored. 
 
 
 .. _ecolink_config_motion_detector_sensor:
@@ -90,7 +90,7 @@ Association group two is intended for any device that is controllable with a Bas
    * - Signal Trigger Device
      - Value
    * - ON  
-     - Basic Set of 0X00 is sent when it is restored 
+     - The associated devices are triggered as OFF when when it ends motion.   
    * - OFF 
-     - Basic Set of 0X00 is NOT sent when it is restored  
+     - The associated devices are NOT triggered as OFF when when it ends motion.   
 
