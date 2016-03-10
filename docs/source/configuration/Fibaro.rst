@@ -67,9 +67,9 @@ The following configuration determines a type of command frame sent by the Senso
    * - Alarm Type
      - Description    
    * - Alarm Water   
-     - Send an ALARM WATER command when the flooding has been detected   
+     - Send an ALARM when the flooding has been detected   
    * - BASIC SET 
-     - Send a Basic Set command when the flooding has been detected  
+     - The associated devices are triggered ON when the flooding has been detected  
 
 
 

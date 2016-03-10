@@ -70,4 +70,14 @@ Smartsense Moisture sensor
 
 Configuration  
 ~~~~~~~~~~~~~~~
-There is no configuration
+By default, this sensor will send no more motion. 
+This amount of time can be configure as follows. 
+
+.. list-table::  
+   :widths: 15 30
+   :header-rows: 1
+
+   * - Interval Time 
+     - Description
+   * - 
+     - Set this amount of time to device 

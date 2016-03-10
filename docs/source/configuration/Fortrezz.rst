@@ -17,6 +17,14 @@ Wake-up
 press and hold the button at least 2 seconds to wake-up device. 
 Once device is waken up, it will be awake for 30 seconds. 
 
+Inclusion 
+~~~~~~~~~~~~
+Press the switch button 
+
+Exclusion 
+~~~~~~~~~~~~
+Press and hold the switch button 
+
 Configuration   
 ~~~~~~~~~~~~~~~~
 

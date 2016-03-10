@@ -20,7 +20,6 @@ Wake-up
 The Aeotec Door and Window Sensor can be made to stay awake for 10 minutes by firmly tapping the security switch 3 times in quick succession. Once the Aeotec Door and Window Sensor has been waken, the LED will blink every few seconds indicating that it is now awake.
 
 
-
 .. image:: ../_static/images/aeotec_door_window_configuration_1.png 
    :align: center
 
@@ -62,6 +61,11 @@ Configuration
    * - Controller with Battery Information
    * - Battery Information
 
+
+
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/1_2_Gen/DoorNWindowSensor/21DoorWindowSensor.pdf>`
 
 
 .. _aeotec_config_recessed_door_sensor_gen5:
@@ -367,7 +371,7 @@ This amount of time can be configure as follows.
 
    * - Interval Time 
      - Description
-   * - 1 ... 3600    
+   * - 10 ... 3600    
      - Set this amount of time to device 
 
 
