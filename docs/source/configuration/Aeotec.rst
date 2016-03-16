@@ -259,16 +259,17 @@ Configuration
    * - High  
      - Change volume high 
 
-.. list-table::  
-   :widths: 15 30
-   :header-rows: 1
 
-   * - Report To
-     - Description
-   * - Nothing 
-     - Do not send the notification when the state of siren is changed 
-   * - Controller
-     - Send the notification when the state of siren is changed
+.. .. list-table::  
+..    :widths: 15 30
+..    :header-rows: 1
+
+..    * - Report To
+..      - Description
+..    * - Nothing 
+..      - Do not send the notification when the state of siren is changed 
+..    * - Controller
+..      - Send the notification when the state of siren is changed
 
 
 .. _aeotec_config_multilevel_sensor_gen5:
@@ -311,8 +312,8 @@ Configuration
    * - Battery 
      - Report battery
 
-By default, this sensor will send Basic Set of 0x00 if there is no more motion for 4 minutes. 
-This amount of time can be configure as follows. 
+By default, the associated device is triggered OFF if the motion is ceased for 4 minutes. 
+This amount of time can be configured as follows. 
 
 .. list-table::  
    :widths: 15 30
@@ -362,8 +363,8 @@ Configuration
 
 
 
-By default, this sensor will send Basic Set of 0x00 if there is no more motion for 4 minutes. 
-This amount of time can be configure as follows. 
+By default, the associated devices will be triggered OFF the motion is ceased for 4 minutes. 
+This amount of time can be configured as following table 
 
 .. list-table::  
    :widths: 15 30
@@ -379,7 +380,7 @@ This amount of time can be configure as follows.
    :widths: 15 30
    :header-rows: 1
 
-   * - Sensor Report Type  
+   * - Report Type  
      - Description
    * - Temperature  
      - Report temperature  

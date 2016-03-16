@@ -23,7 +23,7 @@ Press the switch button
 
 Exclusion 
 ~~~~~~~~~~~~
-Press and hold the switch button 
+Press and hold the switch button for 2 seconds. The LED will blink when the exclusion completes.
 
 Configuration   
 ~~~~~~~~~~~~~~~~

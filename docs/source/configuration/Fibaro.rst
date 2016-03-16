@@ -27,16 +27,8 @@ The Door and Window Sensor can send a dimmer value to the associated devices whe
 
    * - Signal Trigger Device 
      - Description    
-   * - ON  
-     - Send value of 255 when the door is opened  
-   * - 80
-     - Send value of 80 when the door is opened 
-   * - 50
-     - Send value of 50 when the door is opened
-   * - 25
-     - Send value of 25 when the door is opened
-   * - 10
-     - Send value of 10 when the door is opened
+   * - 1 to 99 or 255   
+     - 1 to 99: Send dimming level to associated dimmers. 255: Send ON command to associated devices   
 
 
 .. _fibaro_config_flood_sensor:
