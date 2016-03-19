@@ -148,6 +148,11 @@ If it is enable, a low battery is notified. Otherwise, it is NOT notified.
       - Do not send a notification when the batter is low.
 
 
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/1_2_Gen/DoorRecesseSensor/23RecessedDoorSensor.pdf>`
+
+
 .. _aeotec_config_heavy_duty_smart:
 
 Heavy Duty Smart  
@@ -184,6 +189,13 @@ Configuration
      - Send the notification when the device is switched ON/OFF
 
 
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/5_6_Gen/AeonLabsHeavyDutySmart/z_wave_aeon_labs_heavy_duty_switch_engineering_specification.pdf>`
+
+
+
+
 .. _aeotec_config_smart_dimmer:
 
 Smart Dimmer
@@ -217,6 +229,12 @@ Configuration
      - Do not send the notification when the device is switched ON/OFF 
    * - Enable 
      - Send the a notification when the device is switched ON/OFF
+
+
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/1_2_Gen/SmartDimmer/15SmartDimmerG2.pdf>`
+
 
 
 .. _aeotec_config_siren:
@@ -270,6 +288,12 @@ Configuration
 ..      - Do not send the notification when the state of siren is changed 
 ..    * - Controller
 ..      - Send the notification when the state of siren is changed
+
+
+
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/5_6_Gen/AeonLabsSiren/10SirenGen5.pdf>`
 
 
 .. _aeotec_config_multilevel_sensor_gen5:
@@ -335,6 +359,11 @@ And this interval of time could be configured as follows.
      - Description
    * - 5 ... 2678400 
      - Set this amount of time to device 
+
+
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/5_6_Gen/Multilevel5/8MultiSensorGen5.pdf>`
 
 
 .. _aeotec_config_multilevel_sensor_gen6:
@@ -431,3 +460,6 @@ And this interval of time could be configured as follows.
      - Set this amount of time to device 
 
 
+Specification
+~~~~~~~~~~~~~~~
+:download:`Download <../_static/specification/zwave/AeonLabs/5_6_Gen/Multilevel6/9MultiSensor6.pdf>`
